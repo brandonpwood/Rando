@@ -1,0 +1,34 @@
+.game{
+  width: 100%;
+  text-align: center;
+}
+table, th, td{
+  border: 1px solid;
+  border-collapse: collapse;
+}
+th{
+    font-size: 30px;
+    color: white;
+    background-color: green;
+}
+td{
+  font-size: 25px;
+}
+.holder{
+  width:100%;
+  height: 20%;
+  font-family: sans-serif;
+}
+.guess{
+  text-align: center;
+  font-size: 25px;
+}
+#number{
+  width:20%;
+  height:30px;
+}
+#guess{
+  height:30px;
+  width: 10%;
+  font-size: 20px;
+}

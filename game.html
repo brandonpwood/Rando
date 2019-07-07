@@ -1,0 +1,30 @@
+<head>
+  <link rel="stylesheet" href="game.css">
+
+  <title>Guessing Game</title>
+</head>
+<body>
+    <h1>Guesses Left: <a id = "num"></a></h1>
+  <div class = "holder">
+    <table class = "game" id  = "data">
+      <tr>
+        <th>Guess</th>
+        <th>Digits</th>
+        <th>Places</th>
+      </tr>
+      <tr>
+    </table>
+    <p></p>
+    <div class = "guess">
+      <!-- <form autocomplete="off"> -->
+            <input autocomplete="off" type = "text" id = "number" value = "Put your guess here" onfocus="this.value='';"/>
+            <p>
+            </p>
+            <button id = "guess" onClick = "updateTable()">Guess</button>
+      <!-- </form> -->
+    </div>
+
+  </div>
+
+  <script src = "game.js"></script>
+</body>
